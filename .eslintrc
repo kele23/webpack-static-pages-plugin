@@ -1,0 +1,12 @@
+{
+    "root": true,
+    "env": {
+        "node": true
+    },
+    "extends": ["eslint:recommended", "prettier"],
+    "plugins": ["prettier"],
+    // add your custom rules here
+    "rules": {
+        "guard-for-in": 2
+    }
+}

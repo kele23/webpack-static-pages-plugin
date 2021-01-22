@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "componentsDir": {
+            "type": "string"
+        },
+        "pagesDir": {
+            "type": "string"
+        },
+        "destDir": {
+            "type": "string"
+        }
+    },
+    "required": ["componentsDir", "pagesDir", "destDir"]
+}
